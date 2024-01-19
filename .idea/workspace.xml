@@ -4,15 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="561b17fb-4cfb-4374-937c-dce2a6028e11" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JeuPokemon.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    <list default="true" id="561b17fb-4cfb-4374-937c-dce2a6028e11" name="Changes" comment="1er commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/estiam/jeupokemon/models/Attaque.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/estiam/jeupokemon/models/Attaque.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/estiam/jeupokemon/models/Jeu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/estiam/jeupokemon/models/Jeu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/estiam/jeupokemon/models/Joueur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/estiam/jeupokemon/models/Joueur.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/estiam/jeupokemon/models/Pokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/estiam/jeupokemon/models/Pokemon.java" afterDir="false" />
+    </list>
+    <list id="61d78910-f980-4eb2-a8ca-01dc2df8171f" name="Changes by Moi" comment="">
+      <change beforePath="$PROJECT_DIR$/src/fr/estiam/jeupokemon/models/Pokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/estiam/jeupokemon/models/Pokemon.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,9 +30,34 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "8alex62"
+  }
 }]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="fc7d4296-7e4d-497a-ba02-be1bba277af9" />
+        <option name="url" value="https://github.com/8alex62/JavaJeuPokemon.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/src/fr/estiam/jeupokemon/models/Pokemon.java">
+      <ranges>
+        <range start1="2" end1="2" start2="2" end2="5" changelist="61d78910-f980-4eb2-a8ca-01dc2df8171f" />
+        <range start1="3" end1="4" start2="6" end2="62" changelist="561b17fb-4cfb-4374-937c-dce2a6028e11" />
+      </ranges>
+    </file>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2b82WjYSjR0Tdqfe25wo1G4KA2n" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -40,11 +66,13 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/alexi/Documents/Object Oriented Programmation AD/TpMiniJeu",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -62,11 +90,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1705582420481</updated>
-      <workItem from="1705582421561" duration="4712000" />
+      <workItem from="1705582421561" duration="5400000" />
+      <workItem from="1705651607478" duration="21126000" />
     </task>
+    <task id="LOCAL-00001" summary="1er commit">
+      <option name="closed" value="true" />
+      <created>1705590123809</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1705590123809</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1er commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="1er commit" />
   </component>
 </project>
