@@ -8,7 +8,7 @@ public class Joueur {
     int argent;
     List<Pokemon> pokemons;
 
-    Joueur (String nom, int mancheGagne, int argent){
+     public Joueur (String nom, int mancheGagne, int argent){
         this.nom = nom;
         this.mancheGagne = mancheGagne;
         this.argent = argent;

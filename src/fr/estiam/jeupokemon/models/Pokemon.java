@@ -59,6 +59,7 @@ public class Pokemon {
     }
 
     public void attaquer(){
+
         System.out.println();
     }
 }

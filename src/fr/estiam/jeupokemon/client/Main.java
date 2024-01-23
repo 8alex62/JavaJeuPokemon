@@ -1,4 +1,6 @@
-package fr.estiam.jeupokemon.models;
+package fr.estiam.jeupokemon.client;
+import fr.estiam.jeupokemon.models.Joueur;
+
 import java.util.Scanner;
 public class Main {
 
