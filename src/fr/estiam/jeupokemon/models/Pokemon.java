@@ -15,6 +15,7 @@ public class Pokemon {
     protected Integer defensePokemon;
     protected Integer defenseSpePokemon;
     protected Integer vitessePokemon;
+
     List<Attaque> attaques;
 
 
@@ -57,11 +58,9 @@ public class Pokemon {
         return pokemon.HP != 0;
     }
 
-    public void attaquer ();
-        System.out.println()
-
-
-
+    public void attaquer(){
+        System.out.println();
+    }
 }
 
 

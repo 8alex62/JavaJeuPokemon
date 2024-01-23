@@ -36,5 +36,6 @@ public class Attaque {
                }
                 degats = (((pokemonA.niveau*0.4+2)*att*pui)/(def*50)+2)*stab*pre;
                 return degats;
+
        }
 }

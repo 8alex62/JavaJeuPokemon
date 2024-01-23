@@ -10,5 +10,6 @@ public class Main {
         String nomJ1 = sc.nextLine();
         Joueur j1 = new Joueur(nomJ1, 0, 500);
         j1.choisirPokemon();
+
     }
 }

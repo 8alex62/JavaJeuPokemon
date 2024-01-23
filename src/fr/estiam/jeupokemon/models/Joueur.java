@@ -23,7 +23,7 @@ public class Joueur {
         int monnaie = argent;
 
         Pokemon Tarpaud = new Pokemon("Trapaud", 200,"eau",45,384,249, 249, 299, 279, 239);
-        Tarpaud.ajouterAttaque(new Attaque("Hydrocanon","eau","spe",0,85));
+        Tarpaud.ajouterAttaque(new Attaque("Hydrocanon","eau","spe",0,85, 5));
         Pokemon Magby = new Pokemon("Magby",150,"feu",50, 278, 292,310, 189,220,310);
         Pokemon Joliflore = new Pokemon("Joliflore", 150,"plante",48,318,272,282,278,294,268);
         Pokemon Kraboss = new Pokemon("Kraboss", 150, "eau",47,254,349,220,220,292,272);
@@ -31,7 +31,7 @@ public class Joueur {
         Pokemon Saquedeneu = new Pokemon("Saquedneu",150,"plante",46,285,259,324,184,329,260);
 
 
-""
+
 
         listePokemon.add(Tarpaud);
         listePokemon.add(Magby);
