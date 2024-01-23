@@ -48,7 +48,7 @@
     <file path="$PROJECT_DIR$/src/fr/estiam/jeupokemon/models/Pokemon.java">
       <ranges>
         <range start1="2" end1="2" start2="2" end2="5" changelist="61d78910-f980-4eb2-a8ca-01dc2df8171f" />
-        <range start1="3" end1="4" start2="6" end2="62" changelist="561b17fb-4cfb-4374-937c-dce2a6028e11" />
+        <range start1="3" end1="4" start2="6" end2="68" changelist="561b17fb-4cfb-4374-937c-dce2a6028e11" />
       </ranges>
     </file>
   </component>
@@ -91,7 +91,7 @@
       <option name="presentableId" value="Default" />
       <updated>1705582420481</updated>
       <workItem from="1705582421561" duration="5400000" />
-      <workItem from="1705651607478" duration="21126000" />
+      <workItem from="1705651607478" duration="24008000" />
     </task>
     <task id="LOCAL-00001" summary="1er commit">
       <option name="closed" value="true" />

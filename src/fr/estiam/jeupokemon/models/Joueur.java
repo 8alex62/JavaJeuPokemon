@@ -31,7 +31,7 @@ public class Joueur {
         Pokemon Saquedeneu = new Pokemon("Saquedneu",150,"plante",46,285,259,324,184,329,260);
 
 
-
+""
 
         listePokemon.add(Tarpaud);
         listePokemon.add(Magby);
