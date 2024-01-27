@@ -19,7 +19,7 @@ public class Pokemon {
     List<Attaque> attaques;
 
 
-    Pokemon(String nomPokemon, int prixPokemon, String typePokemon, int niveauPokemon, int HP, Integer attaquePokemon, int attaqueSpePokemon, int defensePokemon, int defenseSpePokemon, int vitessePokemon) {
+    public Pokemon(String nomPokemon, int prixPokemon, String typePokemon, int niveauPokemon, int HP, Integer attaquePokemon, int attaqueSpePokemon, int defensePokemon, int defenseSpePokemon, int vitessePokemon) {
         this.nomPokemon = nomPokemon;
         this.prix = prixPokemon;
         this.typePokemon = typePokemon;
@@ -33,7 +33,6 @@ public class Pokemon {
         this.attaques = new ArrayList<>();
 
     }
-
     public String getNomPokemon() {
         return nomPokemon;
     }
@@ -42,8 +41,16 @@ public class Pokemon {
         return typePokemon;
     }
 
+    public void setHP(Integer HP) {
+        this.HP = HP;
+    }
+
     public Integer getNiveau() {
         return niveau;
+    }
+
+    public Integer getHP() {
+        return HP;
     }
 
     public Integer getPrix() {
@@ -55,12 +62,26 @@ public class Pokemon {
     }
 
     public boolean estKo(Pokemon pokemon) {
-        return pokemon.HP != 0;
+        return pokemon.getHP() > 0;
     }
 
-    public void attaquer(){
+    public void attaquer(Pokemon pokemonDefenseur, Attaque attaque){
+        Pokemon pokemonAttaquant = this;
+        int i = attaque.getPp();
+        if(i > 0 && estKo(pokemonDefenseur)) {
+            int atk = attaque.calculerDegats(pokemonAttaquant, pokemonDefenseur);
+            int hpDef = pokemonDefenseur.getHP();
+            hpDef -= atk;
+            pokemonDefenseur.setHP(hpDef);
 
-        System.out.println();
+            attaque.setPp(i-1);
+
+            if (estKo(pokemonDefenseur)) {
+                System.out.println(pokemonDefenseur.getNomPokemon() + " a maintenant " + hpDef + " points de vie.");
+            } else {
+                System.out.println(pokemonDefenseur.getNomPokemon() + " est KO !");
+            }
+        }
     }
 }
 
